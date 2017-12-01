@@ -30,3 +30,7 @@ def get_page_title(soup):
 
 def get_footer_bar(soup):
     return soup.find('a', id='gb_70').string
+
+
+if __name__ == '__main__':
+    handler(None, None)
